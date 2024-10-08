@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+.E{
+    color: orange;
+}
+.logo{
+    font-weight: 600;
+    font-size: 36px;
+    position: relative;
+    right: 150px;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.home{
+    position: relative;
+    right: 300px;
+    top: 70px;
+    color: black;
+}
+.home:hover{
+    transition: all 0.7s;
+    color: #FF6838;
+}
+.service{
+    position: relative;
+    right: 200px;
+    top: 50px;
+}
+.service:hover{
+    transition: all 0.7s;
+    color: #FF6838;
+}
+.city{
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
+.city:hover{
+    transition: all 0.7s;
+    color: #FF6838;
+}
+.contract{
+    position: relative;
+    left: 7px;
+    top: 12px;
+}
+.contract:hover{
+    transition: all 0.7s;
+    color: #FF6838;
+}
+.signbtn{
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    border: 0px solid ;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    box-shadow:  0px 10px  10px #FF683830;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.sign{
+    position: relative;
+    top: 8px;
+}
+.signbtn:hover{
+    background-color: red;
+    transition: all 0.8s;
+    box-shadow:  5px 6px 30px red;
+
+}
+.search{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+.search:hover{
+    transition: all 0.7s;
+    background-color: #FF6838;
+}
+.cart{
+    position: relative;
+    left: 150px;
+    bottom: 75px;
+}
+.cart:hover{
+    transition: all 0.7s;
+   background-color: #FF6838;
+}
+.super{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 78.21px;
+    width: 500px;
+    position: relative;
+    left: 80px;
+}
+.deliver{
+    color: #FF7A50;
+}
+.fastservice{
+    width: 430px;
+height: 66px;
+position: relative;
+
+left: 83px;
+gap: 0px;
+opacity: 0px;
+font-size: 16px;
+}
+.explorebtn{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    border: 0px solid ;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    box-shadow:  0px 10px  10px #FF683830;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.exploretxt{
+    position: relative;
+    top: 8px;
+}
+.explorebtn:hover{
+    background-color: red;
+    transition: all 0.8s;
+    box-shadow:  5px 6px 30px red;
+}
+.download{
+    color: black;
+    position: relative;
+    left: 250px;
+    bottom: 544px;
+}
+.download:hover{
+    transition: all 0.7s;
+    color: blue;
+    border: 1px dashed blue;
+    border-radius: 10px;
+   
+}
+.moto{
+    position: relative;
+    left: 550px;
+    bottom: 260px;
+    height: 550px;
+}
+.provide{
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+}
+.goodfood{
+    text-transform: capitalize;
+    width: 550px;
+    font-size: 46px;
+    position: relative;
+    left: 750px;
+    bottom: 750px;
+}
+.Stay{
+    color: #FF7A50;
+}
+.food3{
+    color: #FF7A50;
+}
+.provide2{
+    width: 400px;
+    font-size: 18px;
+    position: relative;
+    left: 750px;
+    bottom: 600px;
+}
+.seemore{
+    width: 175px;
+    height: 58px;
+    background-color: #FF6838;
+    color: white;
+    border-radius: 30px 30px 1px 30px;
+    opacity: 0px;
+    border: 0px solid ;
+    position: relative;
+    left: 750px;
+    bottom: 460px;
+    box-shadow:  0px 10px  10px #FF683830;
+}
+.seemore:hover{
+    background-color: red;
+    transition: all 0.8s;
+    box-shadow:  5px 6px 30px red;
+}
+.moretxt{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    left: 44px;
+    top: 18px;
+    
+}
+.restaurant{
+    font-size: 30px;
+    position: absolute;
+    left: 520px;
+    
+}
+.rest{
+    color: #FF6838;
+}
+.rest2{
+    margin-top: -300px;
+}
+.blazepizza{
+    border: 0px solid;
+    position: absolute;
+    left: 50px;
+    margin-top: -200px;
+    
+}
+.pizzaname{
+    font-weight: 500;
+    position: absolute;
+    margin-top: 13px;
+    left: 20px;
+}
+.clock1{
+    position: absolute;
+    right: 325px;
+    margin-top: 350px;
+}
+.pm1{
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+}
+.nextbtn{
+    width: 100px;
+    height: 40px;
+    background-color: #FF6838;
+    color: white;
+    border-radius: 30px 30px 1px 30px;
+    opacity: 0px;
+    border: 0px solid ;
+    position: absolute;
+    left: 240px;
+    margin-top: 40px;
+    box-shadow:  0px 10px  10px #FF683830;
+}
+.strelka1{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.nextbtn:hover{
+    background-color: red;
+    transition: all 0.8s;
+    box-shadow:  5px 6px 30px red;
+}
+.ranchpizza{
+    position: absolute;
+    left: 510px;
+    margin-top: -200px;
+}
+.donspizza{
+    position: absolute;
+    left: 950px;
+    margin-top: -200px;
+}
+.Mobileapp{
+    margin-top: 450px;
+    position: absolute;
+    left: 70px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.app{
+    color: #FF6838;
+}
+.app2{
+    position: absolute;
+    margin-top: 530px;
+    width: 420px;
+    left: 70px;
+}
+.downloadapps{
+    position: absolute;
+    left: 20px; 
+    margin-top: 610px;
+    margin-left: 50px;
+}
+.phone{
+    position: absolute;
+    left: 600px;
+    margin-top: 350px;
+}
+.footer{
+    border: 0px solid;
+    border-radius: 20px;
+    width: 1150px;
+    height: 200px;
+    background-color:#FF6838;
+    position: absolute;
+    margin-top: 1000px;
+    left: 100px;
+    color: white;
+}
+.latestoffer{
+    font-size: 36px;
+    position: absolute;
+    left: 260px;
+    margin-top: 30px;
+  
+}
+.email{
+    border: 0px solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 800px;
+    position: absolute;
+    margin-top: 100px;
+    right: -180px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.email:hover{
+    border: 1px solid blue;
+   
+}
+.sub{
+    border: 0px solid;
+    border-radius: 30px;
+    background-color: #FF6838;
+    position: absolute;
+    margin-top: 68px;
+    font-size: 18px;
+    left: 585px;
+    height: 40px;
+    width: 120px;
+}
+.Subtxt{
+    position: absolute;
+    margin-top: 8px;
+    left: 20px;
+}
+.sub:hover{
+    background-color: red;
+    transition: all 0.8s;
+    box-shadow:  5px 6px 30px red;
+}
+
+
